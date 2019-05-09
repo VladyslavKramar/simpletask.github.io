@@ -14,16 +14,16 @@ const UNCHECK = 'fa-circle-thin';
 const LINE_THROUGH = 'lineThrough';
 
 var imageArr = [
-    '../img/pic_1.jpg', 
-    '../img/pic_2.jpg', 
-    '../img/pic_3.jpg', 
-    '../img/pic_4.jpg', 
-    '../img/pic_5.jpg', 
-    '../img/pic_6.jpg', 
-    '../img/pic_7.jpg', 
-    '../img/pic_8.jpg', 
-    '../img/pic_9.jpg', 
-    '../img/pic_10.jpg'
+    '/img/pic_1.jpg', 
+    '/img/pic_2.jpg', 
+    '/img/pic_3.jpg', 
+    '/img/pic_4.jpg', 
+    '/img/pic_5.jpg', 
+    '/img/pic_6.jpg', 
+    '/img/pic_7.jpg', 
+    '/img/pic_8.jpg', 
+    '/img/pic_9.jpg', 
+    '/img/pic_10.jpg'
 ];
 var LIST, id;
 
