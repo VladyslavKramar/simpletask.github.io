@@ -238,15 +238,16 @@ function closeModal(e) {
 };
 
 window.addEventListener('load', function() {
-    sessionStorage.setItem('firstVisit', '1');
-    if (!sessionStorage.getItem('firstVisit') === "1") {
+    if (sessionStorage.getItem('firstVisit') === "1") {
+        return;
+    } else {
         setTimeout(function() {
             modalWindow.classList.remove('disappear');
             modalWindow.classList.add('appear');
             modalWindow.style.display = 'block';
         }, 300);
     };
-    
+    sessionStorage.setItem('firstVisit', '1');
 });
 
 window.addEventListener('click', function(e) {
